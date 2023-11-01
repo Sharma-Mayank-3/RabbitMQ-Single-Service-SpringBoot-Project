@@ -141,3 +141,9 @@ After the consumer a message has been removed form the quere
 so this is a basic difference between queue and kafka.
 in kafka after cosnumer also a message remains but not in queue
 ```
+
+# Note :
+```properties
+Even a new cosnumer service can be created with different package and I have seen 
+no issue in message consuming.
+```
